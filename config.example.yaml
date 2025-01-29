@@ -1,0 +1,46 @@
+app:
+  name: "My App"
+  debug: true
+  timezone: UTC
+server:
+  http:
+    port: 8000
+    cors:
+      default: true
+      # origin:
+      #   - "*"
+      # methods:
+      #   - "GET"
+      #   - "POST"
+      #   - "PUT"
+      #   - "DELETE"
+      #   - "OPTIONS"
+      # headers:
+      #   - "Origin"
+      #   - "Authorization
+      #   - "Content-Type"
+      # credentials: true
+  # grpc:
+  #   port: 50051
+password:
+  bcryptCost: 10
+log:
+  level: "info"
+  format: "json"
+database:
+  driver: "sqlite"
+  sqlite:
+    dns: "file::memory:?cache=shared"
+  # mysql:
+  #   dns: "root:password@/test"
+  #   maxConnections: 10
+  #   maxLifetime: 10 # in minutes
+  # psql:
+  #   dns: "root:password@/test?timeout=5s"
+  # mongodb:
+  #   dns: "mongodb://localhost:27017"
+# aws:
+#   region: "us-east-1"
+#   awsAccessKeyID: "AKIAIOSFODNN7EXAMPLE"
+#   awsSecret: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  
