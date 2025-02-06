@@ -50,7 +50,7 @@ require (
 
 require (
 	github.com/gin-gonic/gin v1.10.0
-	github.com/go-liquor/liquor-sdk v0.0.0
+	github.com/go-liquor/liquor-sdk v1.0.0
 	go.uber.org/zap v1.27.0
 )
 
