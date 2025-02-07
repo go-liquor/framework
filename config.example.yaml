@@ -17,7 +17,7 @@ server:
       #   - "OPTIONS"
       # headers:
       #   - "Origin"
-      #   - "Authorization
+      #   - "Authorization"
       #   - "Content-Type"
       # credentials: true
   # grpc:
