@@ -28,14 +28,13 @@ log:
   level: "info"
   format: "json"
 database:
-  driver: "sqlite"
   sqlite:
     dns: "file::memory:?cache=shared"
   # mysql:
   #   dns: "root:password@/test"
   #   maxConnections: 10
   #   maxLifetime: 10 # in minutes
-  # psql:
+  # postgres:
   #   dns: "root:password@/test?timeout=5s"
   # mongodb:
   #   dns: "mongodb://localhost:27017"
