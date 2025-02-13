@@ -1,3 +1,4 @@
 config.yaml
 coverage.out
 coverage.html
+__debug*
