@@ -8,5 +8,4 @@ RUN make build
 FROM alpine:3.20
 WORKDIR /var/app
 COPY --from=build /var/build/bin/app /var/app
-COPY config.yaml /var/app/config.yaml
 ENTRYPOINT ["/var/app/app"]

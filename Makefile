@@ -14,3 +14,7 @@ cover:
 .PHONY: tidy
 tidy:
 	go mod tidy
+
+.PHONY: protogen
+protogen:
+	protoc --go_out=.  --go-grpc_out=. pkg/proto/*.proto
